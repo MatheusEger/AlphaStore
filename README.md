@@ -1,2 +1,2 @@
 # Trabalho De Integracao
- Desenvolvimento de 6 sites para apresentação
+ Desenvolvimento de 1 site com 6 paginas para apresentação.
