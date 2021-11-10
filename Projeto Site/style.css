@@ -1,60 +1,23 @@
-/*GERAL*/
-
-body, head, nav, tr, td{
-    padding: 0;
-    height: 100%;
-    width: 100%;
-}
-
-a {
-    text-decoration: none;
-}
-
-/*HEADER*/
-
-header{
-    display: flex;
-    flex-direction: column;
-    background: green;
-}
-
-nav{
-   display: flex; 
-   align-items: center;
-   justify-content: center;
-    padding: 2%;
-}
-.menu td{
-    display: flex;
-    padding: 5px;
-}
-
-/*CATEGORIA*/
-
 section{
     display: flex;
-    padding: 5%;
     justify-content: center;
-    align-items:flex-start;
-    height: 50vh;
-}
-
-section p{
-    display: flex;
-    padding: 0 50px 0;
+    align-items: flex-start;
+    padding: 10px;
+    background: cornflowerblue;
+    height: 30vh;
     
 }
+.categorias p {
+    display: flex;
+   background: rgb(212, 92, 23);
+    padding: 20px;
+}
 
-/*rodape*/
 
 footer{
-    background: greenyellow;
     display: flex;
-    align-items: center;
     justify-content: center;
-}
-.foot td{
-    display: flex;
-    padding: 50px;
+    align-items: flex-end;
+
     
 }
