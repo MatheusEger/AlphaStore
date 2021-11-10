@@ -1,3 +1,24 @@
+ /* Geral*/
+ 
+ body, header, ul, li, p {
+     margin: 0px;
+     padding: 0px;
+     list-style: none;
+     font-size: 1.2rem;
+     font-family: Arial;
+     max-width: 100%;
+ }
+
+header{
+    display: flex;
+    
+}
+
+ a {
+     text-decoration: none;
+     color: white;
+ }
+
 section{
     display: flex;
     justify-content: center;
@@ -18,6 +39,6 @@ footer{
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    background: darkblue;
 
-    
 }
