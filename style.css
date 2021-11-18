@@ -1,21 +1,85 @@
-<<<<<<< HEAD
-=======
 /*GERAL*/
->>>>>>> e46ad8673d07e50b4638c97b2f369e9b0f94bb4e
 * {
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
-<<<<<<< HEAD
-a{
-    text-decoration: none;
-}
-=======
 a {
     color: #fff;
     text-decoration: none;
     transition: 0.3s;
 }
 
->>>>>>> e46ad8673d07e50b4638c97b2f369e9b0f94bb4e
+/*HEADER & NAV*/
+
+header{
+    display: flex;
+    background: green;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
+    padding: 1.5%;
+    flex-wrap: wrap;
+}
+
+header img{
+    background: red;
+}
+
+header nav {
+    display: flex;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul li{
+    padding: 3px;
+}
+
+header .navEnd{
+    background: rgb(255, 145, 0);
+    
+}
+/*BANNER*/
+
+main{
+    background: url("/img/promo.jpg") no-repeat;
+    background-size: 100% 100%;
+    height: 50vh;
+}
+
+/*SOBRE*/
+
+.sobre {
+    background: salmon;
+    padding: 10px 40px 10px;
+}
+
+.sobre p{
+    padding: 5px;
+    text-align: justify;
+}
+
+/*FOOTER*/
+
+footer{
+    background: rgb(32, 101, 146);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+footer ul{
+    display: flex;
+}
+
+.desv {
+    display: flex;
+    padding: 5px;
+}
