@@ -1,8 +1,21 @@
+<<<<<<< HEAD
+=======
+/*GERAL*/
+>>>>>>> e46ad8673d07e50b4638c97b2f369e9b0f94bb4e
 * {
     margin: 0;
     padding: 0;
 }
 
+<<<<<<< HEAD
 a{
     text-decoration: none;
 }
+=======
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+>>>>>>> e46ad8673d07e50b4638c97b2f369e9b0f94bb4e
