@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    background: #fff;
 }
 
 a {
@@ -15,7 +16,6 @@ a {
 
 header{
     display: flex;
-    background: green;
     align-items: center;
     justify-content: space-between;
     height: 10%;
@@ -24,7 +24,7 @@ header{
 }
 
 header img{
-    background: red;
+    
 }
 
 header nav {
@@ -40,8 +40,12 @@ header ul li{
     padding: 3px;
 }
 
+header a{
+    color: black;
+}
+
 header .navEnd{
-    background: rgb(255, 145, 0);
+    
     
 }
 /*BANNER*/
@@ -49,14 +53,13 @@ header .navEnd{
 main{
     background: url("/img/promo.jpg") no-repeat;
     background-size: 100% 100%;
-    height: 50vh;
+    height: 80vh;
 }
 
 /*SOBRE*/
 
 .sobre {
-    background: salmon;
-    padding: 10px 40px 10px;
+    padding: 5% 15% 5%;
 }
 
 .sobre p{
@@ -67,7 +70,7 @@ main{
 /*FOOTER*/
 
 footer{
-    background: rgb(32, 101, 146);
+    background: rgb(126, 126, 126);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,10 +79,15 @@ footer{
 }
 
 footer ul{
+    
     display: flex;
 }
 
+footer p{
+    background: rgb(126, 126, 126);
+}
 .desv {
+     background: rgb(126, 126, 126);
     display: flex;
     padding: 5px;
 }
