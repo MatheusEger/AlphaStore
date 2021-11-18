@@ -57,7 +57,7 @@ header .navEnd{
 /*BANNER*/
 
 main{
-    background: url("/img/promo.jpg") no-repeat;
+    background: url("img/promo.jpg") no-repeat;
     background-size: 100% 100%;
     height: 80vh;
 }
