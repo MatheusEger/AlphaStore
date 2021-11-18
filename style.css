@@ -1,0 +1,103 @@
+/*GERAL*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+/*HEADER & NAV*/
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
+    padding: 1.2%;
+    flex-wrap: wrap;
+}
+
+header img{
+    
+}
+
+header nav {
+    display: flex;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+header li{
+    padding: 18px;
+}
+
+header a{
+    color: black;
+}
+
+header .navEnd{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.navEnd a{
+    padding: 10px;
+}
+/*BANNER*/
+
+main{
+    background: url("/img/promo.jpg") no-repeat;
+    background-size: 100% 100%;
+    height: 80vh;
+}
+
+/*SOBRE*/
+
+.sobre {
+    padding: 5% 15% 5%;
+}
+
+.sobre p{
+    padding: 5px;
+    text-align: justify;
+}
+
+.sobre h1, h2 {
+    text-align: center;
+}
+
+/*FOOTER*/
+
+footer{
+    background: rgb(126, 126, 126);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+footer ul{
+    
+    display: flex;
+}
+
+footer p{
+    background: rgb(126, 126, 126);
+}
+.desv {
+     background: rgb(126, 126, 126);
+    display: flex;
+    padding: 5px;
+}
