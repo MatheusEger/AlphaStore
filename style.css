@@ -19,7 +19,7 @@ header{
     align-items: center;
     justify-content: space-between;
     height: 10%;
-    padding: 1.5%;
+    padding: 1.2%;
     flex-wrap: wrap;
 }
 
@@ -33,11 +33,11 @@ header nav {
 
 header ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-header ul li{
-    padding: 3px;
+header li{
+    padding: 18px;
 }
 
 header a{
@@ -45,8 +45,14 @@ header a{
 }
 
 header .navEnd{
-    
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.navEnd a{
+    padding: 10px;
 }
 /*BANNER*/
 
@@ -65,6 +71,10 @@ main{
 .sobre p{
     padding: 5px;
     text-align: justify;
+}
+
+.sobre h1, h2 {
+    text-align: center;
 }
 
 /*FOOTER*/
