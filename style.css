@@ -5,13 +5,19 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    background: #fff;
 }
 
 a {
     color: #fff;
     text-decoration: none;
     transition: 0.3s;
+}
+
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 /*HEADER & NAV*/
@@ -26,7 +32,6 @@ header{
 }
 
 header nav {
-    
     display: flex;
     
 }
@@ -34,15 +39,15 @@ header nav {
 header ul {  
     display: flex;
     justify-content: space-around;
+
 }
 
-header li{
+header a{
     background: #F0A500;
     padding: 18px;
     font-weight: bold;
     font-size: 18px;
-    font-family: 'Red Hat Display',
-    sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 header li a:hover{
@@ -52,6 +57,10 @@ header li a:hover{
 header a{
     background: #F0A500;
     color: black;
+}
+
+nav{
+    padding: 0;
 }
 
 header .navEnd{
@@ -79,22 +88,6 @@ header .navEnd{
     width: 30px;
 }
 
-span {
-    display: flex;
-    position: absolute;
-    top: 20px;
-    right: 5px;
-    width: 20px;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 10px;
-    min-width: 20px;
-    min-height: 20px;
-    border-radius: 50%;
-    background: red;
-    padding: 2px;
-}
 
 /*BANNER*/
 
