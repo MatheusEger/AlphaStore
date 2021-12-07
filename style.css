@@ -20,6 +20,10 @@ ul {
     padding-left: 0;
 }
 
+img{
+    max-width: 100%;
+}
+
 /*HEADER & NAV*/
 
 header{
@@ -27,19 +31,16 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
     flex-wrap: wrap;
 }
 
 header nav {
-    display: flex;
-    
+    display: flex;  
 }
 
 header ul {  
     display: flex;
     justify-content: space-around;
-
 }
 
 header a{
@@ -56,8 +57,7 @@ header li a:hover{
 
 header a{
     background: #F0A500;
-    color: black;
-    
+    color: black;   
 }
 
 nav{
@@ -72,7 +72,6 @@ header .navEnd{
     font-weight: bold;
     font-size: 100%;
     font-family: 'Red Hat Display',sans-serif;
-
 }
 
 .navEnd a{
@@ -89,10 +88,40 @@ header .navEnd{
     width: 30px;
 }
 
+/*PRODUTOS*/
 
-/*BANNER*/
+.titulo{
+    text-align: center;
+    margin-top: 100px;
+}
 
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 0 auto;
+    
+}
+.produtos > div{
+    flex: 1 1 200px;
+    margin: 10px;
+    
+    
+}
 
+.maisDetalhes{
+    padding: 5px;
+    border-radius: 30px;
+    color: black;
+    background-color: orangered;
+
+}
+
+.valor{
+    color: orangered;
+    font-size: 25px;
+    font-weight: bold;
+}
 
 /*SOBRE*/
 
@@ -117,11 +146,9 @@ footer{
     flex-direction: column;
     align-items: center;
     padding: 10px;
-    
 }
 
 footer ul{
-    
     display: flex;
 }
 
