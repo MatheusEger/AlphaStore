@@ -28,31 +28,45 @@
   <title>Alpha Store</title>
 </head>
 <body>
-  <header>
-      <a href="./index.html"><img src="img/logoAlpha.jpeg" alt="Logo" width="180px" height="80px"></a>
-    <nav>
-      <ul>
-        <li><a href="./promocoes.html">PROMOÇÕES</a></li>
-        <li><a href="./novidades.html">NOVIDADES</a></li>
-        <li><a href="./sobre.html">SOBRE</a></li>
+  <nav class="navbar navbar-expand-lg navbar-light bg-warning text-dark" >
+  <div class="container-fluid">
+    <a href="./index.html"><img src="img/logoAlpha.png" alt="Logo" width="200px" height="100px"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link font-weight-bold" href="./promocoes.html">PROMOÇÕES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./novidades.html">NOVIDADES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./sobre.html">SOBRE</a>
+        </li>
         <li class="nav-item dropdown">
-          <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             CATEGORIA
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="#">COMPUTADORES</a></li>
             <li><a class="dropdown-item" href="#">CONSOLES</a></li>
             <li><a class="dropdown-item" href="#">PERIFERICOS</a></li>
           </ul>
-        </li>
       </ul>
+      <nav class="navbar navbar-light bg-warning text-dark">
+        <div class="container-fluid">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link" href="./login.html">LOGIN</a></li>
+                <li class="nav-item"> <a class="nav-link" href="">CADASTRE-SE</a></li>
+            </ul>
+            <button class="btn  btn-outline-secondary btn-light">CARRINHO <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg></button>
+         </div>
     </nav>
-    <div class="navEnd " >
-      <a href="./login.html">LOGIN</a>
-      <a href="">CADASTRE-SE</a>
-      <button class="butCarrinho">CARRINHO<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg></button>
     </div>
-  </header>
+  </div>
+</nav>
  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -80,7 +94,6 @@
   </button>
 </div>
 
-<<<<<<< Updated upstream
 <h1 class="titulo">Produtos</h1>
 
 <section class="produtos">
@@ -124,15 +137,58 @@
       <p class="valor">R$ 740,50</p>
       <button class="maisDetalhes">Mais Detalhes</button>
     </div>
+    <div>
+      <img src="./img/prod9.png" alt="A">
+      <p class="valor">R$ 740,50</p>
+      <button class="maisDetalhes">Mais Detalhes</button>
+    </div>
+    <div>
+      <img src="./img/prod10.png" alt="A">
+      <p class="valor">R$ 740,50</p>
+      <button class="maisDetalhes">Mais Detalhes</button>
+    </div>
+    <div>
+      <img src="./img/prod11.png" alt="A">
+      <p class="valor">R$ 740,50</p>
+      <button class="maisDetalhes">Mais Detalhes</button>
+    </div>
+    <div>
+      <img src="./img/prod12.png" alt="A">
+      <p class="valor">R$ 740,50</p>
+      <button class="maisDetalhes">Mais Detalhes</button>
+    </div>
+    <div>
+      <img src="./img/prod13.png" alt="A">
+      <p class="valor">R$ 740,50</p>
+      <button class="maisDetalhes">Mais Detalhes</button>
+    </div>
+    <div>
+      <img src="./img/prod14.png" alt="A">
+      <p class="valor">R$ 740,50</p>
+      <button class="maisDetalhes">Mais Detalhes</button>
+    </div>
+    <div>
+      <img src="./img/prod15.png" alt="A">
+      <p class="valor">R$ 740,50</p>
+      <button class="maisDetalhes">Mais Detalhes</button>
+    </div>
+    <div>
+      <img src="./img/prod16.png" alt="[class]="expression"">
+      <p class="valor">R$ 740,50</p>
+      <button class="maisDetalhes">Mais Detalhes</button>
+    </div>
+    <div>
+      <img src="./img/prod17.png" alt="A">
+      <p class="valor">R$ 740,50</p>
+      <button class="maisDetalhes">Mais Detalhes</button>
+    </div>
+    <div>
+      <img src="./img/prod18.png" alt="A>
+      <p class="valor">R$ 740,50</p>
+      <button class="maisDetalhes">Mais Detalhes</button>
+    </div>
     
 </section>
-=======
-<div class="produtos">
-  <div class="prod1">
-    <img src="" alt="">
-  </div>
-</div>
->>>>>>> Stashed changes
 
   <footer>
     <p>Desenvolvido por</p>

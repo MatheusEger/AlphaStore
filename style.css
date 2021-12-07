@@ -24,69 +24,6 @@ img{
     max-width: 100%;
 }
 
-/*HEADER & NAV*/
-
-header{
-    background: #F0A500;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-header nav {
-    display: flex;  
-}
-
-header ul {  
-    display: flex;
-    justify-content: space-around;
-}
-
-header a{
-    background: #F0A500;
-    padding: 18px;
-    font-weight: bold;
-    font-size: 100%;
-    font-family: 'Red Hat Display', sans-serif;
-}
-
-header li a:hover{
-    color: white;
-}
-
-header a{
-    background: #F0A500;
-    color: black;   
-}
-
-nav{
-    padding: 0;
-}
-
-header .navEnd{
-    background: #F0A500;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    font-weight: bold;
-    font-size: 100%;
-    font-family: 'Red Hat Display',sans-serif;
-}
-
-.navEnd a{
-    padding: 10px;
-}
-
-.navEnd a:hover{
-    color: white;
-}
-
-.navEnd svg{
-    background: #F0A500;
-    height: 30px;
-    width: 30px;
-}
 
 /*PRODUTOS*/
 
