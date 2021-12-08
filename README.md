@@ -1,4 +1,7 @@
-# Trabalho De Integracao
+# Alpha Store
 
- Desenvolvimento de um site com seis paginas para apresentação.
+#### Conheça a [Alpha Store](https://matheuseger.github.io/Trabalho-De-Integracao/) 
 
+Desenvolvimento de um site com seis paginas para apresentação.
+
+![](TRABALHO-DE-INTEGRACAO/img/logoalpha.png) 
