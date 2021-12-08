@@ -25,41 +25,6 @@ img{
 }
 
 
-/*PRODUTOS*/
-
-.titulo{
-    text-align: center;
-    margin-top: 100px;
-}
-
-.produtos {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 80%;
-    margin: 0 auto;
-    
-}
-.produtos > div{
-    flex: 1 1 200px;
-    margin: 10px;
-    
-    
-}
-
-.maisDetalhes{
-    padding: 5px;
-    border-radius: 30px;
-    color: black;
-    background-color: orangered;
-
-}
-
-.valor{
-    color: orangered;
-    font-size: 25px;
-    font-weight: bold;
-}
-
 /*SOBRE*/
 
 .sobre {
