@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Red+Hat+Display&display=swap');
 
 /*GERAL*/
@@ -73,6 +74,10 @@ img{
 
 .sobre h1, h2 {
     text-align: center;
+}
+
+.container {
+    background-image: url(https://i.imgur.com/1E1hgLN.jpg)
 }
 
 /*FOOTER*/
