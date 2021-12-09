@@ -48,11 +48,6 @@ function entrar(){
           window.location.href = '../index.html'
         }, 300)
     
-    let token = Math.random().toStrng(16).substr(2) + Math.random().toStrng(16).substr(2)
-        localStorage.setItem('token', token)
-
-    sair.setAttribute('style', 'display: block')
-    sair.innerHTML = 'SAIR'
 
   }else{
     userLabel.setAttribute('style', 'color: red')

@@ -97,7 +97,7 @@ function cadastrar(){
         msgError.innerHTML = ''
 
         setTimeout(()=>{
-        window.location.href = '/html/login.html'
+        window.location.href = '../html/login.html'
         }, 3000)
         
     } else {
@@ -127,4 +127,3 @@ btnConfirm.addEventListener('click', () => {
      inputConfirmSenha.setAttribute('type', 'password') 
     }
  })
- 

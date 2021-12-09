@@ -9,7 +9,7 @@
 }
 
 body{
-    background-image: url(../img/fundo2.jpg);
+    background-color: #FF9400;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -42,7 +42,7 @@ h1{
     padding: 5px 5px;
     display: inline-block;
     border: 0;
-    border-bottom: 2px solid #272262;
+    border-bottom: 2px solid #623122;
     background-color: transparent;
     outline: none;
     min-width: 180px;
@@ -59,16 +59,16 @@ h1{
 }
 
 .label-float input:focus {
-    border-bottom: 2px solid #4038a0;
+    border-bottom: 2px solid #a14900;
 }
 
 .label-float label{
-    color: #272262;
+    color: #a14900;
     pointer-events: none;
     position: absolute;
     top: 0;
     left: 0;
-    margin-top: 13px;;
+    margin-top: 14px;;
     transition: all .3s ease-out;
 }
 
@@ -76,13 +76,13 @@ h1{
 .label-float input:valid + label{
     font-size: 13px;
     margin-top: 0;
-    color: #4038a0;
+    color: #a14900;
 }
 
 .button{
     background-color: transparent;
-    border-color: #272262;
-    color: #272262;
+    border-color: #eb6a01;
+    color: #e6873b;
     padding: 1vh;
     font-weight: bold;
     font-size: 16pt;
@@ -93,7 +93,7 @@ h1{
 }
 
 .button:hover{
-    background-color: #272262;
+    background-color: #e9c837;
     color: #fff;
     transition: all .4s ease-out;
 }
@@ -116,7 +116,7 @@ p{
 }
 
 a{
-    color: #7a3077;
+    color: #e68e47;
     font-weight: bold; 
     text-decoration: none; 
     transition: all .3s ease-out;
@@ -153,11 +153,3 @@ a:hover{
     display: none;
 }
 
-#msgError2 {
-    text-align: center;
-    color: #ff0000;
-    background-color: transparent;
-    padding: 10px;
-    border-radius: 4px;
-    display: none;
-}
