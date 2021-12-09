@@ -8,7 +8,7 @@ function logar(){
     if(email.value == "admin@admin.com" && senha.value == "admin" ){
         localStorage.setItem('acesso', true);
         
-        window.location.href = "index.html"; 
+        window.location.href = "./html/login.html"; 
     }else{
         alert("Ususario ou senha ivalidos! ");
 

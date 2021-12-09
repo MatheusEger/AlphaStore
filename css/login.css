@@ -20,6 +20,7 @@ body{
     justify-content: center;
     width: 100%;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .card{
@@ -27,7 +28,7 @@ body{
     padding: 30px;
     border-radius: 4%;
     box-shadow: 3px 3px 1px 0px #00000070;;
-    width: 50%;
+    width: 90vh;
 }
 
 h1{
@@ -81,7 +82,7 @@ h1{
     background-color: transparent;
     border-color: #272262;
     color: #272262;
-    padding: 7px;
+    padding: 1vh;
     font-weight: bold;
     font-size: 16pt;
     margin-top: 20px;
@@ -109,7 +110,7 @@ hr{
 
 p{
     color: black;
-    font-size: 17pt;
+    font-size: 4vh;
     text-align: center;
 }
 
