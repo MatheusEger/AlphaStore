@@ -152,3 +152,12 @@ a:hover{
     border-radius: 4px;
     display: none;
 }
+
+#msgError2 {
+    text-align: center;
+    color: #ff0000;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+}
