@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2? family = Cabin: ital, wght @ 1.500 & family = Signika + Negativo: wght @ 300; 400; 500; 600; 700 & display = troca');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Numans%27");
 
 
 *{
     margin: 0;
     padding: 0;
-
+    font-family: 'Lato'sans-serif;
 }
 
 body{

@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Red+Hat+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
 
 /*GERAL*/
 * {
     margin: 0;
     padding: 0;
     list-style: none;
+   
 }
 
 a {
@@ -40,7 +42,8 @@ img {
     flex-wrap: wrap;
     max-width: 80%;
     margin: 0 auto;
-
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 
 .produtos>div {
@@ -67,43 +70,47 @@ img {
 /*SOBRE*/
 
 .sobre {
-    padding: 5% 15% 5%;
+    padding: 5% 12% 5%;
 }
 
 .sobre p {
-    padding: 5px;
+    padding: 9px;
     text-align: justify;
+    font-size: 2vh;
 }
 
 .sobre h1,
 h2 {
     text-align: center;
+    font-family: 'Lato'sans-serif;
+    font-size: 4vh;
+}
+.sobre a{
+    text-decoration: none;
 }
 
-.container {
-    background-image: url(https://i.imgur.com/1E1hgLN.jpg)
-}
-
-/*FOOTER*/
-
-footer {
-    background: rgb(126, 126, 126);
+.carUser{
+    max-width: 100% ;
+    border: 2px solid;
+    margin: 10%;
+    padding: 10px  10px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+}
+
+.carForme h1, a{
+
+    display: flex;
     align-items: center;
-    padding: 10px;
+    color: #000;
 }
 
-footer ul {
-    display: flex;
+.carForme a{
+    justify-content: center;
+    color: rgb(68, 55, 189);
 }
 
-footer p {
-    background: rgb(126, 126, 126);
+.carForme a:hover{
+    color: rgb(190, 113, 41);
 }
 
-.desv {
-    background: rgb(126, 126, 126);
-    display: flex;
-    padding: 5px;
-}
