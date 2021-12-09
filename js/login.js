@@ -42,7 +42,8 @@ function entrar(){
 
   if(usuario.value == userValid.user && senha.value == userValid.senha){
   
-    alert('Login efetuado com secuesso!')
+    alert('Login efetuado com secuesso!'
+    )
    
     setTimeout(()=>{
           window.location.href = '../index.html'
@@ -55,6 +56,7 @@ function entrar(){
     senhaLabel.setAttribute('style', 'color: red')
     senha.setAttribute('style', 'border-color: red')
     msgError2.setAttribute('style', 'display: block')
+    msgError2.setAttribute('style', 'color: red ')
     msgError2.innerHTML = 'Usuario ou senha incorretos'
     usuario.focus()
   }
