@@ -114,3 +114,26 @@ h2 {
     color: rgb(190, 113, 41);
 }
 
+/*FOOTER*/
+
+footer {
+    background: rgb(126, 126, 126);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer p {
+    background: rgb(126, 126, 126);
+}
+
+.desv {
+    background: rgb(126, 126, 126);
+    display: flex;
+    padding: 5px;
+}
