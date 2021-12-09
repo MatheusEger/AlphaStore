@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Red+Hat+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Red+Hat+Display&display=swap');
 
 /*GERAL*/
 * {
@@ -114,3 +115,7 @@ h2 {
     color: rgb(190, 113, 41);
 }
 
+#banana {
+    margin-top: 50px;
+
+}
