@@ -1,0 +1,10 @@
+{
+    "1": {
+        "nome" : "Produto 1",
+        "preco" : 25.00
+    },
+    "2": {
+        "nome" : "Produto 2",
+        "preco" : 25.00
+    }
+}

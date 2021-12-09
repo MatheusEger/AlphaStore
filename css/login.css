@@ -72,7 +72,8 @@ h1{
     transition: all .3s ease-out;
 }
 
-.label-float input:focus + label{
+.label-float input:focus + label,
+.label-float input:valid + label{
     font-size: 13px;
     margin-top: 0;
     color: #4038a0;
@@ -124,4 +125,30 @@ a{
 a:hover{
     color: black;
     
+}
+
+.fa-eye{
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    cursor: pointer;
+
+}
+
+#msgError {
+    text-align: center;
+    color: #ff0000;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+}
+
+#msgSuccess {
+    text-align: center;
+    color: #0d520d;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
 }
